@@ -26,7 +26,7 @@ function draw() {
 			var c=color(R,G,B);
 			var grey=round(R*0.222+G*0.707+B*0.071);
 			var w;
-			w=map(grey,0,255,20,0);
+			w=map(grey,0,255,3,1);
 			fill(c);
 			textSize(w);
 			text(type[tid%type.length],i,j);
