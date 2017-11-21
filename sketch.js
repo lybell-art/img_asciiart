@@ -9,7 +9,7 @@ function setup() {
   createCanvas(img.width,img.height);
 	img.loadPixels();
 	noStroke();
-	noloop();
+	noLoop();
 } 
 
 function draw() { 
