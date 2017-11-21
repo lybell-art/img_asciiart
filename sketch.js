@@ -2,7 +2,7 @@ var img;
 var type="soganguniversityart&technologycreationbeyondimagination";
 function preload()
 {
-	img=loadImage("data/picture.jpg");
+	img=loadImage("picture.jpg");
 }
 
 function setup() { 
