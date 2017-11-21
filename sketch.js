@@ -9,6 +9,7 @@ function setup() {
   createCanvas(img.width,img.height);
 	img.loadPixels();
 	noStroke();
+	noloop();
 } 
 
 function draw() { 
@@ -30,6 +31,7 @@ function draw() {
 			fill(c);
 			textSize(w);
 			text(type[tid%type.length],i,j);
+			console.log(type[tid%type.length]);
 		}
 	}
 }
